@@ -65,7 +65,7 @@ To run **backcalculation**, first import a CSV file including the FWD load and d
 **Notes on CSV file and Backcalculation:**
 * A couple of sample CSV files are provided in the folder named "Sample FWD Time Histories".
 * Future release of ViscoWave will include algorithms for creating CSV files from FWD output files (for Dynatest, JILS, and Kuab FWDs).
-* Current version of ViscoWave only allows for unconstrained optimization (i.e., backcalculation without any upper or lower bounds specified to the variables). As such, it is strongly recommended that you start with a good Seed value for backcalculation.  A future release of ViscoWave may allow for constrained optimization.
+* Current version of ViscoWave only allows for **unconstrained optimization** (i.e., backcalculation without any upper or lower bounds specified to the variables). As such, it is strongly recommended that you start with a good Seed value for backcalculation.  A future release of ViscoWave may allow for constrained optimization.
 
 <img src="Release Notes/Figures/ViscoWave_Defl_Plots.jpg " ></img>
 
@@ -74,8 +74,8 @@ To run **backcalculation**, first import a CSV file including the FWD load and d
 As discussed above, the Sigmoidal Function for ViscoWave (in the VW tab) corresponds to the Relaxation Modulus in time-domain.  The Dynamic_Modulus_Calc tab allows for converting the Relaxation Modulus (in time-domain) to Dynamic modulus (in frequency-domain). If you have Dynamic Modulus Sigmoidal Coefficients (say from laboratory testing of asphalt mixtures), and want to use them in ViscoWave, this tab also allows you to convert the Dynamic Modulus to Relaxation Modulus. 
 
 
-1.	To convert from Relaxation Modulus (E(t)) to Dynamic Modulus (|E*|), simply fill in the Relaxation coefficients (Top Left table) and click on the button “Convert E(t) to |E*|”.
-2.	To convert from Dynamic Modulus (|E*|) to Relaxation Modulus (E(t)), simply fill in the Relaxation coefficients (Top Right table) and click on the button “Convert |E*| to E(t)”.
+1.	To convert from **Relaxation Modulus (E(t)) to Dynamic Modulus (|E*|)**, simply fill in the Relaxation coefficients (Top Left table) and click on the button “Convert E(t) to |E*|”.
+2.	To convert from **Dynamic Modulus (|E*|) to Relaxation Modulus (E(t))**, simply fill in the Relaxation coefficients (Top Right table) and click on the button “Convert |E*| to E(t)”.
 
 The tab also provides the Prony series coefficients that can be used to calculate both the Relaxation and Dynamic moduli. 
 
