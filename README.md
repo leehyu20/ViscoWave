@@ -74,8 +74,8 @@ To run **backcalculation**, first import a CSV file including the FWD load and d
 As discussed above, the Sigmoidal Function for ViscoWave (in the VW tab) corresponds to the Relaxation Modulus in time-domain.  The Dynamic_Modulus_Calc tab allows for converting the Relaxation Modulus (in time-domain) to Dynamic modulus (in frequency-domain). If you have Dynamic Modulus Sigmoidal Coefficients (say from laboratory testing of asphalt mixtures), and want to use them in ViscoWave, this tab also allows you to convert the Dynamic Modulus to Relaxation Modulus. 
 
 
-1.	To convert from **Relaxation Modulus (E(t)) to Dynamic Modulus (|E*|)**, simply fill in the Relaxation coefficients (Top Left table) and click on the button “Convert E(t) to |E*|”.
-2.	To convert from **Dynamic Modulus (|E*|) to Relaxation Modulus (E(t))**, simply fill in the Relaxation coefficients (Top Right table) and click on the button “Convert |E*| to E(t)”.
+* To convert from **Relaxation Modulus** (E(t)) to **Dynamic Modulus** (|E*|), simply fill in the Relaxation coefficients (Top Left table) and click on the button “Convert E(t) to |E*|”.
+* To convert from **Dynamic Modulus** (|E*|) to **Relaxation Modulus** (E(t)), simply fill in the Relaxation coefficients (Top Right table) and click on the button “Convert |E*| to E(t)”.
 
 The tab also provides the Prony series coefficients that can be used to calculate both the Relaxation and Dynamic moduli. 
 
