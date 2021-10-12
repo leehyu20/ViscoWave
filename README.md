@@ -16,7 +16,7 @@ A unique characteristic of ViscoWave which separates it from other available FLM
 
 ## INSTALLING VISCOWAVE
 
-Installation of ViscoWave is simple. Download the "ViscoWave_Installer.zip" and extract the files to a local directory. Then double click the Setup.exe file. Follow the on-screen instructions to complete installation.  
+Installation of ViscoWave is simple. Download the "[ViscoWave_Installer.zip](ViscoWave_Installer.zip)" and extract the files to a local directory. Then double click the Setup.exe file. Follow the on-screen instructions to complete installation.  
 
 **Notes on ViscoWave installation:**
 * Installation of ViscoWave requires that the user has **Administrator Access** to the computer.
