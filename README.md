@@ -19,22 +19,17 @@ A unique characteristic of ViscoWave which separates it from other available FLM
 Installation of ViscoWave is simple. Download the "ViscoWave_Installer.zip" and extract the files to a local directory. Then double click the Setup.exe file. Follow the on-screen instructions to complete installation.  
 
 **Notes on ViscoWave installation:**
-
-**1.	Installation of ViscoWave requires that the user has Administrator Access to the computer.**
-
-**2.	ViscoWave (and its installer) has only been tested on 64-bit Windows 10 Environment, with 32-bit or 64-bit Microsot Excel.**
+* Installation of ViscoWave requires that the user has **Administrator Access** to the computer.
+* ViscoWave (and its installer) has only been tested on **64-bit Windows 10 Environment, with 32-bit or 64-bit Microsot Excel**.
 
 ## GETTING STARTED
 
 Once ViscoWave is installed, you should see a ViscoWave shortcut created on your Windows Desktop. Double-click on the shortcut to open the ViscoWave interface built in the Microsoft Excel environment. 
 
 **Notes on ViscoWave interface:**
-
-**1.	This is an interim interface that may be improved/changed with future release of ViscoWave.**
-
-**2.	This is a “Read-Only” file. Please save the template with a different file name if you do not want to lose your changes.**
-
-**3.	You need to have some basic knowledge of Microsoft Excel.**
+* This is an **interim interface** that may be improved/changed with future release of ViscoWave.
+* This is a **“Read-Only”** file. Please save the template with a different file name if you do not want to lose your changes.
+* You need to have some basic knowledge of Microsoft Excel.
 
 **ViscoWave Excel interface** has the following 4 tabs:
 
@@ -50,35 +45,27 @@ A little more description on the VW and Dynamic_Modulus_Calc tabs are provided i
 Running ViscoWave is easy!  Simply fill in the pavement structure information as well as sensor offsets, FWD plate radius, and the FWD load time history as shown in the figures below. The simulation results will automatically be updated. 
 
 **Notes on ViscoWave inputs:**
-
-**1.	To simulate a viscoelastic layer, the modulus of that particular layer must be assigned a value of ZERO in the General Pavement Structure table, and the sigmoidal function coefficients should be provided in the table below it.**
-
-**2.	To simulate a half-space (i.e., a semi-infinite subgrade), the thickness of the last layer must be specified to ZERO. However, It is generally recommended NOT to use a half-space for backcalculation purposes – use a very thick subgrade instead (e.g., 300 in. to 500 in. subgrade thickness).**
-
-**3.	Current ViscoWave interface allows up to 6 pavement layers (including 3 viscoelastic layers) and 9 deflection sensors. This is simply due to the interface, not the limitation of ViscoWave code.**
+* To simulate a **viscoelastic layer**, the modulus of that particular layer must be assigned a value of ZERO in the General Pavement Structure table, and the sigmoidal function coefficients should be provided in the table below it.
+* To simulate a **half-space (i.e., a semi-infinite subgrade)**, the thickness of the last layer must be specified to ZERO. However, It is generally recommended NOT to use a half-space for backcalculation purposes – use a very thick subgrade instead (e.g., 300 in. to 500 in. subgrade thickness).
+* Current ViscoWave interface allows up to 6 pavement layers (including 3 viscoelastic layers) and 9 deflection sensors. This is simply due to the interface, not the limitation of ViscoWave code.
 
 <img src="Release Notes/Figures/ViscoWave_Input_Screen.jpg " ></img>
 
 The VW tab also allows you to generate a few synthetic load time histories: Half-Sine, Haver-Sine, and Normal (Gaussian) shaped loads. Simply fill in the necessary inputs for the load you want then click on the corresponding button to generate the load. 
 
 **Notes on ViscoWave time histories:**
-
-**1.	Time Increment (dt) must be 0.2 milliseconds (Hard Coded in C++ Code).**
-
-**2.	Maximum time should NOT exceed 0.07 seconds. It is generally recommended not to modify the time column. In other words, use the time from 0 to 0.0598 sec. at an interval of 0.002 sec.**
+* **Time Increment** (dt) must be **0.2 milliseconds** (Hard Coded in C++ Code).
+* **Maximum time** should NOT exceed 0.07 seconds. It is generally recommended not to modify the time column. In other words, use the time from 0 to 0.0598 sec. at an interval of 0.002 sec.
 
 <img src="Release Notes/Figures/ViscoWave_TimeHistories.jpg " ></img>
 
 
-To run backcalculation, first import a CSV file including the FWD load and deflection time histories. Fill in the pavement inputs. Then, try changing some of the pavement parameters (i.e., modulus) until you see a reasonable seed value to start with. Then “Run Backcalculation” button to let the Excel Solver find you the optimum values. 
+To run **backcalculation**, first import a CSV file including the FWD load and deflection time histories. Fill in the pavement inputs. Then, try changing some of the pavement parameters (i.e., modulus) until you see a reasonable seed value to start with. Then “Run Backcalculation” button to let the Excel Solver find you the optimum values. 
 
 **Notes on CSV file and Backcalculation:**
-
-**1.	A couple of sample CSV files are provided in the folder named "Sample FWD Time Histories".**
-
-**2.	Future release of ViscoWave will include algorithms for creating CSV files from FWD output files (for Dynatest, JILS, and Kuab FWDs).**
-
-**3.	Current version of ViscoWave only allows for unconstrained optimization (i.e., backcalculation without any upper or lower bounds specified to the variables). As such, it is strongly recommended that you start with a good Seed value for backcalculation.  A future release of ViscoWave may allow for constrained optimization.**
+* A couple of sample CSV files are provided in the folder named "Sample FWD Time Histories".
+* Future release of ViscoWave will include algorithms for creating CSV files from FWD output files (for Dynatest, JILS, and Kuab FWDs).
+* Current version of ViscoWave only allows for unconstrained optimization (i.e., backcalculation without any upper or lower bounds specified to the variables). As such, it is strongly recommended that you start with a good Seed value for backcalculation.  A future release of ViscoWave may allow for constrained optimization.
 
 <img src="Release Notes/Figures/ViscoWave_Defl_Plots.jpg " ></img>
 
