@@ -66,7 +66,7 @@ The figure below shows the ViscoWave Main Menu options that can be found within 
 <img src="Release Notes/Figures/VW_MainMenu.png" ></img>
 
  
-PRE-PROCESSING OF FWD DATA
+## PRE-PROCESSING OF FWD DATA
 
 Pre-processing of the FWD data allows you to extract deflection summaries as well as ViscoWave-compatible time history CSV files. You need to select one of the three FWD types (Dynatest, JILS, and Kuab FWDs) for extracting the necessary files for backcalculation. The program will ask you to select the FWD data for pre-processing.  The compatible FWD files and folder structures are described below.  
 
