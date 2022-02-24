@@ -1,4 +1,0 @@
-; Relaxation_Sigmoid_to_Prony.def defines exports for Relaxation_Sig_to_Prony.dll
-LIBRARY Relaxation_Sig_to_Prony
-EXPORTS 
-Relaxation_Sig_to_Prony
