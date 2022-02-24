@@ -161,7 +161,7 @@ The tab also provides the Prony series coefficients that can be used to calculat
 
 The tab also shows the plots for the Relaxation and Dynamic moduli from both the Sigmoidal functions and Prony series. 
 
-    <img src="Release Notes/Figures/Modulus_Plots.png" ></img>
+   <img src="Release Notes/Figures/Modulus_Plots.png" ></img>
 
 
 ## BACKCALCULATION USING BATCH MODE
