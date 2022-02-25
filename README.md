@@ -2,8 +2,8 @@
 
 ## VERSION 2.0.0 RELEASE NOTES
 ViscoWave Version 2.0.0 brings several updates to the previous version of ViscoWave. These updates include the following.
-1.	**Pre-Processing** for extracting ViscoWave-compatible CSV files from FWD data files
-2.	**Batch-Processing** for backcalculating multiple time histories
+1.	**Pre-Processing** for extracting ViscoWave-compatible CSV files from FWD data files.
+2.	**Batch-Processing** for backcalculating multiple time histories.
 3.	**Post-Processing** for summarizing backcalculated results from batch-processing. 
 4.	**Constrained Backcalculation** with lower and upper bounds for layer moduli.
 
@@ -48,7 +48,7 @@ Once ViscoWave is installed, you should see a ViscoWave shortcut created on your
 1.	**VW** – Tab for ViscoWave main menu as well as forward simulation and backcalculation.. 
 2.	**Default Inputs** – Tab for storing the default (or seed) pavement parameters (Modulus, Poisson’s Ratio, Density, Thickness, and Damping) and their constraints.
 3.	**Dynamic_Modulus_Calc** – Tab for converting the Relaxation Modulus (in time-domain) to Dynamic Modulus (in frequency-domain), or vice versa. 
-4	**VW_Quick_Start_Guide** – Tab including a quick reference for using ViscoWave.
+4.	**VW_Quick_Start_Guide** – Tab including a quick reference for using ViscoWave.
 5.	**AGPL License V3** – Tab showing the license agreement (AGPL Version 3.0) for ViscoWave. 
 
 Among the above, you will mostly interact with VW and Dynamic_Modulus_Calc tabs for the analysis as described subsequently. In addition to the above, the interface includes the following 2 tabs that are hidden: 
