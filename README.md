@@ -129,6 +129,7 @@ The VW tab also allows you to generate a few synthetic load time histories: Half
 **Notes on ViscoWave time histories:**
 
 •	**Time Increment** (dt) must be **0.2 milliseconds** (Hard Coded in C++ Code).
+
 •	**Maximum time** should NOT exceed 0.06 seconds. It is generally recommended not to modify the time column. In other words, use the time from 0 to 0.0598 sec. at an interval of 0.002 sec.
 
 ## BACKCALCULATION USING VISCOWAVE (SINGLE DROP)
@@ -153,6 +154,7 @@ Note that the Sigmoidal Function used in ViscoWave (in the VW tab) corresponds t
 As discussed above, the Sigmoidal Function for ViscoWave (in the VW tab) corresponds to the Relaxation Modulus in time-domain. The **Dynamic_Modulus_Calc** tab allows you to convert the Relaxation Modulus (in time-domain) to Dynamic modulus (in frequency-domain). Similarly, if you have Dynamic Modulus Sigmoidal Coefficients (say from laboratory testing of asphalt mixtures), and want to use them in ViscoWave, this tab also allows you to convert the Dynamic Modulus to Relaxation Modulus. 
 
 •	To convert from **Relaxation Modulus** (E(t)) to **Dynamic Modulus** (|E*|), simply fill in the Relaxation coefficients (Top Left table) and click on the button “Convert E(t) to |E*|”.
+
 •	To convert from **Dynamic Modulus** (|E*|) to **Relaxation Modulus** (E(t)), simply fill in the Relaxation coefficients (Top Right table) and click on the button “Convert |E*| to E(t)”.
 
 The tab also provides the Prony series coefficients that can be used to calculate both the Relaxation and Dynamic moduli. 
