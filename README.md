@@ -115,7 +115,9 @@ Running ViscoWave is easy!  In the VW tab, simply fill in the pavement structure
 **Notes on ViscoWave inputs:**
 
 •	To simulate a **viscoelastic layer**, the modulus of that particular layer must be assigned a value of ZERO in the General Pavement Structure table, and the sigmoidal function coefficients should be provided in the table below it.
+
 •	To simulate a **half-space (i.e., a semi-infinite subgrade)**, the thickness of the last layer must be specified to ZERO. However, It is generally recommended NOT to use a half-space for backcalculation purposes – use a very thick subgrade instead (e.g., 300 in. to 500 in. subgrade thickness).
+
 •	Current ViscoWave interface allows up to 6 pavement layers (including 3 viscoelastic layers) and 9 deflection sensors. This is simply due to the interface, not the limitation of ViscoWave code.
 
 
