@@ -1,7 +1,7 @@
 # KNOWN ISSUES IN VISCOWAVE VERSION 2.0.0
 On June 21, 2022, it was brought to my attention that some of the recent MS Windows Updates may have blocked the use of "Shell" command in MS Excel/VBA. What this means for many of us (including myself) is that Excel is no longer able to call "R-Portable" for extracting the FWD time history data and generating the CSV files needed for ViscoWave. 
 
-I am currently working to find a solution or a workaround to this problem. Once this issue is resolved, I will release ViscoWave Version 3.0. 
+**Based on my evaluation, this seems to be an issue only on Windows 10 machines. ViscoWave should be working properly on Wondiws 11 platform.** I am currently working to find a solution or a workaround to this problem. Once this issue is resolved, I will release ViscoWave Version 3.0. 
 
 I apologize for the inconvenience. 
 
