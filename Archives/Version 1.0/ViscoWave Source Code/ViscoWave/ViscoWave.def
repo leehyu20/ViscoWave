@@ -1,0 +1,4 @@
+; ViscoWave.def defines exports for ViscoWave.dll
+LIBRARY ViscoWave
+EXPORTS 
+ViscoWave
