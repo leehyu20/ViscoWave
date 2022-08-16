@@ -2,7 +2,7 @@
 
 ## VERSION 3.0.0 RELEASE NOTES
 
-**ViscoWave Version 3.0.0** incorporates several minor bug fixes. This version also addresses the issue of Windows 10 Updates blocking the Pre-Processing menu of ViscoWave!
+**ViscoWave Version 3.0.0** incorporates several minor bug fixes. **This version also addresses the issue of Windows 10 Updates blocking the Pre-Processing menu of ViscoWave!**
 
 With the release of Version 3.0.0, the previous versions of ViscoWave have been archived. A detailed user manual is coming soon!
 
