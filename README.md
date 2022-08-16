@@ -1,20 +1,24 @@
-# KNOWN ISSUES IN VISCOWAVE VERSION 2.0.0
-On June 21, 2022, it was brought to my attention that some of the recent MS Windows Updates may have blocked the use of "Shell" command in MS Excel/VBA. What this means for many of us (including myself) is that Excel is no longer able to call "R-Portable" for extracting the FWD time history data and generating the CSV files needed for ViscoWave. 
+# VISCOWAVE VERSION 3.0.0
 
-**Based on my evaluation, this seems to be an issue only on Windows 10 machines. ViscoWave should be working properly on Wondiws 11 platform.** I am currently working to find a solution or a workaround to this problem. Once this issue is resolved, I will release ViscoWave Version 3.0. 
+## VERSION 3.0.0 RELEASE NOTES
 
-I apologize for the inconvenience. 
+**ViscoWave Version 3.0.0** incorporates several minor bug fixes. This version also addresses the issue of Windows 10 Updates blocking the Pre-Processing menu of ViscoWave!
 
-# VISCOWAVE VERSION 2.0.0
+With the release of Version 3.0.0, the previous versions of ViscoWave have been archived. A detailed user manual is coming soon!
 
-## VERSION 2.0.0 RELEASE NOTES
-ViscoWave Version 2.0.0 brings several updates to the previous version of ViscoWave. These updates include the following.
-1.	**Pre-Processing** for extracting ViscoWave-compatible CSV files from FWD data files.
-2.	**Batch-Processing** for backcalculating multiple time histories.
+Here are the some links that will get you started with ViscoWave Version 3.0.0!
+
+1.	ViscoWave V3 Installer: **"[ViscoWave_V3_Installer.zip](ViscoWave_V3_Installer.zip)"** 
+2.	Portable R for Pre-Processing FWD Data: **“[Portable_R_for_VW.msi](https://www.dropbox.com/s/ehssdvv2u8vhylx/Portable_R_for_VW.msi?dl=0)”** 
+3.	**[Sample FWD Data Files]( https://www.dropbox.com/sh/d0dxthyuhfu6vc1/AABOplpBskALIptieVXm_0Ala?dl=0)** 
+
+ViscoWave Version 3.0.0 also includes the updates from the previous version (V2) which include the following.
+
+1.	**Pre-Processing** for extracting ViscoWave-compatible CSV files from FWD data files
+2.	**Batch-Processing** for backcalculating multiple time histories
 3.	**Post-Processing** for summarizing backcalculated results from batch-processing. 
 4.	**Constrained Backcalculation** with lower and upper bounds for layer moduli.
 
-With the release of Version 2.0.0, the previous version of ViscoWave has been archived. A detailed user manual is coming soon!
 
 ## INTRODUCTION
 
