@@ -6,7 +6,7 @@
 
 With the release of Version 3.0.0, the previous versions of ViscoWave have been archived. A detailed user manual is coming soon!
 
-Here are the some links that will get you started with ViscoWave Version 3.0.0!
+Here are some links that will get you started with ViscoWave Version 3.0.0!
 
 1.	ViscoWave V3 Installer: **"[ViscoWave_V3_Installer.zip](ViscoWave_V3_Installer.zip)"** 
 2.	Portable R for Pre-Processing FWD Data: **“[Portable_R_for_VW.msi](https://www.dropbox.com/s/ehssdvv2u8vhylx/Portable_R_for_VW.msi?dl=0)”** 
