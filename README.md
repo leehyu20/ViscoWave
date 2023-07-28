@@ -1,5 +1,7 @@
 # VISCOWAVE VERSION 3.0.0
 
+**!! It was brought to my attention on July 27, 2023 that the Prony Series module (i.e., the C++ DLL needed for interconversion of Viscoelastic material functions) is not working for 32-bit MS Excel.  The ViscoWave DLL works fine.  I will post and release another update when this issue is resolved !!** 
+
 ## VERSION 3.0.0 RELEASE NOTES
 
 **ViscoWave Version 3.0.0** incorporates several minor bug fixes. **This version also addresses the issue of Windows 10 Updates blocking the Pre-Processing menu of ViscoWave!**
